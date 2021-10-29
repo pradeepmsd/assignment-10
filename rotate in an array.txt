@@ -1,0 +1,26 @@
+arr = [1, 2, 3, 4, 5];     
+n=int(input("enter breakelement"))   
+print("Original array: ");      
+for i in range(0, n):      
+    first = arr[0];    
+    for j in range(0, len(arr)-1):    
+        arr[j] = arr[j+1];      
+    arr[len(arr)-1] = first;    
+print();     
+print("Array after left rotation: ");    
+
+
+Algorithm
+- Declare and initialise an array
+
+- Variable n will get from user the number of
+ time an array should be rotated towards its
+ left
+
+- The array can be rotated by shifting its 
+element to a position prior to them which can
+ be accomplished by looping through the array 
+and perform the operands arr[i]=arr[j+1]
+
+- The first element of array will be added to 
+the last of the rotated array
