@@ -1,0 +1,24 @@
+n = int(input("Enter a number: "))
+sum1 = 0
+for i in range(1, n):
+    if(n % i == 0):
+        sum1 = sum1 + i
+if (sum1 == n):
+    print(" The number is a Perfect ")
+else:
+    print(" The number is not a Perfect ")
+
+
+
+
+
+algorithm:
+
+  - Enter the integer and stote it in a variable.
+  - Then for loop can used to generate numbers from 1 to n
+  - if statement can be used to check the numbers it is divided by i gives the remainder as 0.
+  - Then proper divisors of the number are added to the sum variable.
+  - if sum of the proper divisors of numbers is equal to the original number,that number is a perfect number.
+  - The final result is printed.  
+   
+
