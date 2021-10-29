@@ -1,0 +1,27 @@
+a=int(input("Enter the number for a: "))
+b=int(input("Enter the number for b: "))
+def add(a,b):   
+    while(b != 0):
+
+        c=a&b 
+
+        a=a^b 
+
+        b=c<<1
+    return a
+
+    
+    
+print("Sum of two numbers",add(a,b))
+
+
+algorithm:
+
+ - Get input the first number from user
+ - Store  the number in variable a
+ - Get input the second number from user
+ - Store the number in variable b
+ - Then define the add variable to a and b
+ - Create a function with “while loop” used for addtion of two numbers.
+ - Call the functions
+ - Display the sum of the 2 numbers on the screen 
